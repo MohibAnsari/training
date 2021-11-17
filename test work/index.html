@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   
+    
+</head>
+<body>
+  <div id="navbar" >
+    <div id="navup" >
+    <div class="leftnav">
+      <a href="wao.html"><button class="b1" ><img src="img/amazon-dark-logo-png-transparent.png" style="width: 100%; height: 100%; "></button></a>
+  <div class="mapbt" >
+    <a href="wao.html"><button class="b2" ><img src="img/maplogo.png" style="width: 30%; height: 40%; float: left; margin-top: 20px;  "><div style="height: 20%;"><p style="color: antiquewhite;">Deliver to<br><b>Pakistan</b></p></div></button></a>      
+  </div>
+</div>
+<div class="cntrnav" >
+  <input type="text" class="txbar">
+</div>
+<div class="rightnav" >
+
+<div><a href="wao.html"><button class="b3" >
+  <img src="img/download.jpg" style="height: 50px; width: 55px;" > </button></a></div>
+
+<div><a href="wao.html"><button class="b4" >
+ <h4> Account & Lists</h4> </button></a></div>
+
+<div><a href="wao.html"><button class="b5" >
+ <h4>Returns<br>& Orders</h4> </button></a></div>
+
+ <div><a href="wao.html"><button class="b6" >
+  <img src="img/online-shopping-3d-computer-graphics-cart-vehicle.jpg" style="height: 50px; width: 60px;" > </button></a></div>
+
+
+</div>
+
+</div>
+  
+
+<div id="navdn" >
+  <div><a href="wao.html"><button class="b7" >
+ <h4>All</h4> </button></a> </div>
+  
+  <div><a href="wao.html"><button class="b8" >
+    <h4>Today's Deals</h4> </button></a></div>
+  <div><a href="wao.html"><button class="b9" >
+    <h4>Customer Service</h4> </button></a></div>
+  <div><a href="wao.html"><button class="b10" >
+    <h4>Registry</h4> </button></a></div>
+  <div><a href="wao.html"><button class="b11" >
+    <h4>Gift Cards</h4> </button></a></div>
+    <div><a href="wao.html"><button class="b12">
+      <h4>Sell</h4> </button></a></div>
+   <div class="txt" ><h3 style="text-align: center;"> Made by:RAO ALAM </h3>
+      </div>
+      <div><a href="wao.html"><button class="b13" >
+        <h4>Amazon's responce to COVID-19</h4> </button></a></div>
+
+</div>
+
+</div>
+
+
+  <div class="imgctn" style="width:100%;" >
+  <div class="mySlides fade">
+    <img src="img/71qid7QFWJL._SX3000_.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/711Y9Al9RNL._SX3000_.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="img/61jovjd+f9L._SX3000_.jpg" style="width:100%">
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+
+<div class="abox" >
+  <div class="a1" ><a href="wao.html"><button class="bd1" ><h3 style="text-align: left; ">AmazonBasics</h3>  <img style="height: 75%; width: 90%;" src="img/amazonbasics_520x520._SY304_CB442725065_.jpg" alt=""><p style="text-align: left;">See more</p> </button></a></div>
+
+  <div class="bo1"><a href="wao.html"><button class="bd2" > <h3 style="text-align: left;">Shop by Category</h3> <img style="height: 75%; width: 90%;" src="img/Fuji_Dash_Electronics_1x._SY304_CB432774322_.jpg" alt=""><p style="text-align: left;">See more</p> </button></a></div>
+
+  <div class="c1" ><a href="wao.html"><button class="bd3" ><h3 style="text-align: left;">Electronics</h3>  <img style="height: 75%; width: 90%;" src="img/amazonbasics_520x520._SY304_CB442725065_.jpg" alt=""><p style="text-align: left;">See more</p> </button></a></div>
+
+  <div class="d1"><a href="wao.html"><button class="bd4" ><h3 style="text-align: left;">Accesories</h3><img style="height: 75%; width: 90%;"s src="img/Fuji_D2_45M_en_US_1x._CB418309979_.jpg" alt=""><p style="text-align: left;">See more</p> </button></div>
+  
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    
+
+</body>
+</html>
