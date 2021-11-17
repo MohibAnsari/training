@@ -1,0 +1,268 @@
+.cnt1{
+    background:linear-gradient(30deg,#110d359c,#110d359c) ,url("imgs/28e27554c2c08b5d85044d093f9f54781564221096.jpg");
+    
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+}
+@media screen and (max-width: 720px){
+    .cnt1{
+        height: 400px;
+    }
+}
+.navbar-brand{
+    font-size: xx-large;
+    font-style:italic;
+    text-align: center;
+    
+}
+.a1{
+    font-size: 80px;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    font-family:cursive;
+}
+@media screen and (max-width: 720px){
+    .a1{
+        font-size: 40px;
+    }
+}
+.a2{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+@media screen and (max-width: 720px){
+    .a2{
+        font-size: 30px;
+    }
+}
+
+.nav-link{
+    font-size: large;
+    margin-left: 74px;
+    
+}
+.cnt5{
+    height: 800px;
+}
+.se1{
+    background:linear-gradient(30deg,#110d3581,#110d3580) , url("imgs/download (2).jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height:300px; 
+    width: 100%; 
+    border-radius: 10px; 
+    margin: 20px 0px 0px 50px;
+}
+@media screen and (max-width: 991px){
+    .se1{
+        margin: 0 20px 40px 0px;
+    }
+}
+.se2{
+    background:linear-gradient(30deg,#110d3580,#110d3580) , url("imgs/download (1).jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height:300px; 
+    width: 100%; 
+    border-radius: 10px; 
+    margin: 50px 0px 0px 50px;
+}
+@media screen and (max-width: 991px){
+    .se2{
+        margin: 0 20px 40px 0px;
+    }
+}
+.se3{
+    background:linear-gradient(30deg,#110d3583,#110d3583) , url("imgs/download (3).jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:300px; 
+    width: 100%; 
+    border-radius: 10px; 
+    margin: 50px 0px 10px 50px;
+}
+@media screen and (max-width: 991px){
+    .se3{
+        margin: 0 20px 40px 0px;
+    }
+}
+.b1a{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width: 720px){
+    .b1a{
+        font-size: 30px;
+    }
+}
+.b1b{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width: 720px){
+    .b1b{
+        font-size: 20px;
+    }
+}
+.b2a{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width: 720px){
+    .b2a{
+        font-size: 30px;
+    }
+}
+.b2b{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width: 720px){
+    .b2b{
+        font-size: 20px;
+    }
+}
+.b3a{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width: 720px){
+    .b3a{
+        font-size: 30px;
+    }
+}
+.b3b{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width: 720px){
+    .b3b{
+        font-size: 20px;
+    }
+}
+.c1a{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width: 720px){
+    .c1a{
+        font-size: 30px;
+    }
+}
+.c1b{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width: 720px){
+    .c1b{
+        font-size: 20px;
+    }
+}
+.c2a{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width: 720px){
+    .c2a{
+        font-size: 30px;
+    }
+}
+.c2b{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width: 720px){
+    .c2b{
+        font-size: 20px;
+    }
+}
+.c3a{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width: 720px){
+    .c3a{
+        font-size: 30px;
+    }
+}
+.c3b{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width: 720px){
+    .c3b{
+        font-size: 20px;
+    }
+}
+.row{
+    margin:unset;
+}
+.re1{
+    background:linear-gradient(30deg,#110d3583,#110d3581) , url("imgs/download (6).jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:300px; 
+    width: 100%; 
+    border-radius: 10px; 
+    margin: 20px 20px 0px 0px;
+}
+.d1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+@media screen and (max-width: 720px){
+    .d1{
+        font-size: 30px;
+    }
+}
+
+.re2{
+    background:linear-gradient(30deg,#110d3573,#110d357a) , url("imgs/download (4).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:300px; 
+    width: 100%; 
+    border-radius: 10px; 
+    margin: 50px 20px 0px 0px;
+}
+.re3{
+    background:linear-gradient(30deg,#110d3579,#110d3577) , url("imgs/download (1).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:300px; 
+    width: 100%; 
+    border-radius: 10px; 
+    margin: 50px 20px 10px 0px;
+}
+.imd1{
+    background:linear-gradient(30deg,#110d3565,#110d355e) , url("imgs/shenzhen-china-hotel-banquet-hall-june-shangri-la-31481628.jpg");
+    height:400px;
+    background-size: cover;
+    background-position: center;
+    width: 100%; 
+    margin: 40px 0 0 0;
+}
+.d1a{text-align: center;
+font-size: 70px;
+color: white;
+margin-top: 05px;
+padding-top: 40px;
+}
+
